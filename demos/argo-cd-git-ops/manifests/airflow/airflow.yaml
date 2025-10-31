@@ -18,8 +18,8 @@ spec:
     #
     # TODO(@maltesander): In a Stackable release, this branch should point to the release-YY.MM branch!
     dagsGitSync:
-      - repo: https://github.com/stackabletech/demos/
-        branch: main
+      - repo: https://github.com/dervoeti/demos/
+        branch: testing
         gitFolder: "demos/argo-cd-git-ops/dags"
         depth: 2
     volumes:
