@@ -78,7 +78,7 @@ spec:
         # - Use the demo parameters `customGitUrl` and `customGitBranch` to point the
         #   the repository to your fork and branch
         # - Change the replicas here and push that to the provided `customGitBranch` in your fork
-        replicas: 1
+        replicas: 2
   kubernetesExecutors:
     envOverrides: *envOverrides
     podOverrides:
